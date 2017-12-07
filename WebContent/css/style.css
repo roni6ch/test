@@ -1,0 +1,80 @@
+body {
+	font-family: 'Gloria Hallelujah', cursive;
+	background-size: 100%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background: url(../images/bg1.jpg) no-repeat center center fixed;
+}
+
+.loginBT {
+	position: fixed;
+	margin: auto;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	width: 106px;
+	height: 34px;
+}
+
+.table {
+	text-align: left;
+	font-weight: bold;
+	text-transform: capitalize;
+	width: 50%;
+	margin: 0 auto;
+}
+
+.note {
+	background: transparent;
+	outline: 0;
+	text-transform: capitalize;
+	border: 0;
+}
+
+#newNote {
+	width: 50%;
+	margin: 0 auto;
+	min-width: 340px;
+}
+
+#newNote button {
+	float: left;
+	margin-top: 10px;
+}
+
+.doneItems {
+	width: 20px;
+	height: 20px;
+}
+
+.updateItem {
+	display: none;
+	float: right;
+}
+
+.noteTitle {
+	width: 370px;
+}
+
+input.doneItems {
+	cursor: pointer;
+}
+
+.container {
+	position: relative;
+}
+
+.userProfile {
+	position: absolute;
+	top: 1%;
+	color: #fff;
+	left: 3%;
+}
+
+.userProfile img {
+	width: 60px;
+	border-radius: 50px;
+}
